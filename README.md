@@ -4,7 +4,7 @@ GroundDB is the first open-source, full-fledged memory-disaggregated OLTP databa
 
 ## Overview
 
-![Merge on Different Datasets](./figures/system-arch.png)
+<img src="./figures/system-arch.png" width="500" />
 
 ## Code Structure
 
@@ -91,11 +91,11 @@ cd GroundDB
 
 Update some of the configuration in the code if needed:
 
-- **Storage node's IP**: in ***src/backend/access/storage/rpc/rpcclient.cpp*** line 53 macro $\texttt{PRIMARY\_NODE\_IP}$.
+- **Storage node's IP**: in ***src/backend/access/storage/rpc/rpcclient.cpp*** line 53 macro PRIMARY_NODE_IP.
 - **Neon pageserver's IP**: in ***src/backend/access/storage/rpc/rpcserver.cpp*** line 612.
 - **Page array's size**: in ***/src/backend/storage/GroundDB/mempool_server.cc*** line 18.
-- **Turn on covering policy**: in ***/src/include/storage/GroundDB/mempool_client.h*** line 35 macro $\texttt{MEMPOOL\_CACHE\_POLICY\_COVERING}$​.
-- **Turn on centralized RAT**: in ***/src/include/storage/GroundDB/mempool_client.h*** line 37 macro $\texttt{MEMPOOL\_CENTRALIZED\_PAT}$.
+- **Turn on covering policy**: in ***/src/include/storage/GroundDB/mempool_client.h*** line 35 macro MEMPOOL_CACHE_POLICY_COVERING.
+- **Turn on centralized RAT**: in ***/src/include/storage/GroundDB/mempool_client.h*** line 37 macro MEMPOOL_CENTRALIZED_PAT.
 
 Compile and install:
 
@@ -160,27 +160,27 @@ cd $INSTALL_DESTINATION/bin
 
 Varying remote memory sizes in SysBench read, SysBench write, and TPC-C:
 
-![](./figures/Q1_legend.png)
+<img src="./figures/Q1_legend.png" width="300" />
 
-![](./figures/Q1_read.png)![](./figures/Q1_write.png)![](./figures/Q1_tpcc.png)
+<img src="./figures/Q1_read.png" width="300" /><img src="./figures/Q1_write.png" width="300" /><img src="./figures/Q1_tpcc.png" width="300" />
 
 Warm-up process of compute nodes:
 
-![](./figures/Q3_legend.png)
+<img src="./figures/Q3_legend.png" width="300" />
 
-![](./figures/Q3.png)
+<img src="./figures/Q3.png" width="300" />
 
 Different buffer policies:
 
-![](./figures/Q4.png)
+<img src="./figures/Q4.png" width="300" />
 
 Crash recovery on memory nodes:
 
-![](./figures/Q5_legend.png)
+<img src="./figures/Q5_legend.png" width="300" />
 
-![](./figures/Q5_1.png)![](./figures/Q5_16.png)
+<img src="./figures/Q5_1.png" width="300" /><img src="./figures/Q5_16.png" width="300" />
 
 Centralized vs. decentralized RAT:
 
-![](./figures/Q4_polar.png)
+<img src="./figures/Q4_polar.png" width="300" />
 
