@@ -156,7 +156,7 @@ cd $INSTALL_DESTINATION/bin
 ./psql postgres
 ```
 
-## 4. Experiments
+## Experiment Results
 
 Varying remote memory sizes in SysBench read, SysBench write, and TPC-C:
 
