@@ -4,7 +4,7 @@ GroundDB is the first open-source, full-fledged memory-disaggregated OLTP databa
 
 ## Overview
 
-![Merge on Different Datasets](./figures/system-arch.pdf)
+![Merge on Different Datasets](./figures/system-arch.png)
 
 ## Code Structure
 
@@ -160,27 +160,27 @@ cd $INSTALL_DESTINATION/bin
 
 Varying remote memory sizes in SysBench read, SysBench write, and TPC-C:
 
-![](./figures/Q1_legend.pdf)
+![](./figures/Q1_legend.png)
 
-![](./figures/Q1_read.pdf)![](./figures/Q1_write.pdf)![](./figures/Q1_tpcc.pdf)
+![](./figures/Q1_read.png)![](./figures/Q1_write.png)![](./figures/Q1_tpcc.png)
 
 Warm-up process of compute nodes:
 
-![](./figures/Q3_legend.pdf)
+![](./figures/Q3_legend.png)
 
-![](./figures/Q3.pdf)
+![](./figures/Q3.png)
 
 Different buffer policies:
 
-![](./figures/Q4.pdf)
+![](./figures/Q4.png)
 
 Crash recovery on memory nodes:
 
-![](./figures/Q5_legend.pdf)
+![](./figures/Q5_legend.png)
 
-![](./figures/Q5_1.pdf)![](./figures/Q5_16.pdf)
+![](./figures/Q5_1.png)![](./figures/Q5_16.png)
 
 Centralized vs. decentralized RAT:
 
-![](./figures/Q4_polar.pdf)
+![](./figures/Q4_polar.png)
 
